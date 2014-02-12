@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		37A1369518A548E3009A69CA /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37A1369418A548E3009A69CA /* icon@2x.png */; };
 		37CB879118A34AAF00407843 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CB879018A34AAF00407843 /* Foundation.framework */; };
 		37CB879318A34AAF00407843 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CB879218A34AAF00407843 /* CoreGraphics.framework */; };
 		37CB879518A34AAF00407843 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CB879418A34AAF00407843 /* UIKit.framework */; };
@@ -21,6 +22,12 @@
 		37CB87B218A34AAF00407843 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37CB879418A34AAF00407843 /* UIKit.framework */; };
 		37CB87BA18A34AAF00407843 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37CB87B818A34AAF00407843 /* InfoPlist.strings */; };
 		37CB87BC18A34AAF00407843 /* Assignment1Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CB87BB18A34AAF00407843 /* Assignment1Tests.m */; };
+		37CB87C718A34B8100407843 /* A1TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37CB87C618A34B8100407843 /* A1TableViewController.m */; };
+		382D9C6518A49F6900AC1D03 /* ButtonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 382D9C6418A49F6900AC1D03 /* ButtonViewController.m */; };
+		382D9C6818A4A11F00AC1D03 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 382D9C6718A4A11F00AC1D03 /* TimerViewController.m */; };
+		382D9C6B18A4BD3B00AC1D03 /* PickerSwitchViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 382D9C6A18A4BD3B00AC1D03 /* PickerSwitchViewController.m */; };
+		3845822F18A4D0E6000CC196 /* PageDataSourceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3845822E18A4D0E6000CC196 /* PageDataSourceViewController.m */; };
+		3845823E18A4D642000CC196 /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3845823D18A4D642000CC196 /* ImageViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		37A1369418A548E3009A69CA /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
 		37CB878D18A34AAF00407843 /* Assignment1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Assignment1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37CB879018A34AAF00407843 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37CB879218A34AAF00407843 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -53,6 +61,18 @@
 		37CB87B718A34AAF00407843 /* Assignment1Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Assignment1Tests-Info.plist"; sourceTree = "<group>"; };
 		37CB87B918A34AAF00407843 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37CB87BB18A34AAF00407843 /* Assignment1Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Assignment1Tests.m; sourceTree = "<group>"; };
+		37CB87C518A34B8100407843 /* A1TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = A1TableViewController.h; path = ../A1TableViewController.h; sourceTree = "<group>"; };
+		37CB87C618A34B8100407843 /* A1TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = A1TableViewController.m; path = ../A1TableViewController.m; sourceTree = "<group>"; };
+		382D9C6318A49F6900AC1D03 /* ButtonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ButtonViewController.h; sourceTree = "<group>"; };
+		382D9C6418A49F6900AC1D03 /* ButtonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ButtonViewController.m; sourceTree = "<group>"; };
+		382D9C6618A4A11F00AC1D03 /* TimerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		382D9C6718A4A11F00AC1D03 /* TimerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		382D9C6918A4BD3B00AC1D03 /* PickerSwitchViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PickerSwitchViewController.h; sourceTree = "<group>"; };
+		382D9C6A18A4BD3B00AC1D03 /* PickerSwitchViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PickerSwitchViewController.m; sourceTree = "<group>"; };
+		3845822D18A4D0E6000CC196 /* PageDataSourceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PageDataSourceViewController.h; sourceTree = "<group>"; };
+		3845822E18A4D0E6000CC196 /* PageDataSourceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PageDataSourceViewController.m; sourceTree = "<group>"; };
+		3845823C18A4D642000CC196 /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImageViewController.h; sourceTree = "<group>"; };
+		3845823D18A4D642000CC196 /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImageViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,10 +132,23 @@
 		37CB879618A34AAF00407843 /* Assignment1 */ = {
 			isa = PBXGroup;
 			children = (
+				37A1369418A548E3009A69CA /* icon@2x.png */,
+				37CB87C518A34B8100407843 /* A1TableViewController.h */,
+				37CB87C618A34B8100407843 /* A1TableViewController.m */,
 				37CB879F18A34AAF00407843 /* A1AppDelegate.h */,
 				37CB87A018A34AAF00407843 /* A1AppDelegate.m */,
 				37CB87A218A34AAF00407843 /* Main.storyboard */,
+				3845822D18A4D0E6000CC196 /* PageDataSourceViewController.h */,
+				3845822E18A4D0E6000CC196 /* PageDataSourceViewController.m */,
+				3845823C18A4D642000CC196 /* ImageViewController.h */,
+				3845823D18A4D642000CC196 /* ImageViewController.m */,
+				382D9C6918A4BD3B00AC1D03 /* PickerSwitchViewController.h */,
+				382D9C6A18A4BD3B00AC1D03 /* PickerSwitchViewController.m */,
+				382D9C6618A4A11F00AC1D03 /* TimerViewController.h */,
+				382D9C6718A4A11F00AC1D03 /* TimerViewController.m */,
 				37CB87A518A34AAF00407843 /* A1ViewController.h */,
+				382D9C6318A49F6900AC1D03 /* ButtonViewController.h */,
+				382D9C6418A49F6900AC1D03 /* ButtonViewController.m */,
 				37CB87A618A34AAF00407843 /* A1ViewController.m */,
 				37CB87A818A34AAF00407843 /* Images.xcassets */,
 				37CB879718A34AAF00407843 /* Supporting Files */,
@@ -230,6 +263,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				37CB87A918A34AAF00407843 /* Images.xcassets in Resources */,
+				37A1369518A548E3009A69CA /* icon@2x.png in Resources */,
 				37CB879B18A34AAF00407843 /* InfoPlist.strings in Resources */,
 				37CB87A418A34AAF00407843 /* Main.storyboard in Resources */,
 			);
@@ -250,9 +284,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3845822F18A4D0E6000CC196 /* PageDataSourceViewController.m in Sources */,
+				382D9C6B18A4BD3B00AC1D03 /* PickerSwitchViewController.m in Sources */,
+				382D9C6818A4A11F00AC1D03 /* TimerViewController.m in Sources */,
 				37CB87A118A34AAF00407843 /* A1AppDelegate.m in Sources */,
 				37CB879D18A34AAF00407843 /* main.m in Sources */,
 				37CB87A718A34AAF00407843 /* A1ViewController.m in Sources */,
+				3845823E18A4D642000CC196 /* ImageViewController.m in Sources */,
+				382D9C6518A49F6900AC1D03 /* ButtonViewController.m in Sources */,
+				37CB87C718A34B8100407843 /* A1TableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +501,7 @@
 				37CB87C118A34AAF00407843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37CB87C218A34AAF00407843 /* Build configuration list for PBXNativeTarget "Assignment1Tests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +510,7 @@
 				37CB87C418A34AAF00407843 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
