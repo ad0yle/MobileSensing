@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>9324BB80-6F83-443F-AC5B-203F028C49C9</string>
+	<key>IDESourceControlProjectName</key>
+	<string>AssignmentNumberTwo</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D25BC5CC-A202-4823-BCF7-E5852FB05DCC</key>
+		<string>ssh://github.com/ad0yle/MobileSensing.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>AssignmentNumberTwo/AssignmentNumberTwo.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D25BC5CC-A202-4823-BCF7-E5852FB05DCC</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/ad0yle/MobileSensing.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D25BC5CC-A202-4823-BCF7-E5852FB05DCC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D25BC5CC-A202-4823-BCF7-E5852FB05DCC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MobileSensing</string>
+		</dict>
+	</array>
+</dict>
+</plist>
