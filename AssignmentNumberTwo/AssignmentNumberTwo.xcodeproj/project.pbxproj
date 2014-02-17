@@ -13,14 +13,17 @@
 		37D9B45B18B2BEF6005C069D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37D9B45918B2BEF6005C069D /* InfoPlist.strings */; };
 		37D9B45D18B2BEF6005C069D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D9B45C18B2BEF6005C069D /* main.m */; };
 		37D9B46118B2BEF6005C069D /* A2AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D9B46018B2BEF6005C069D /* A2AppDelegate.m */; };
-		37D9B46418B2BEF6005C069D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D9B46218B2BEF6005C069D /* Main.storyboard */; };
-		37D9B46718B2BEF6005C069D /* A2ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D9B46618B2BEF6005C069D /* A2ViewController.m */; };
 		37D9B46918B2BEF6005C069D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 37D9B46818B2BEF6005C069D /* Images.xcassets */; };
 		37D9B47018B2BEF6005C069D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D9B46F18B2BEF6005C069D /* XCTest.framework */; };
 		37D9B47118B2BEF6005C069D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D9B45018B2BEF6005C069D /* Foundation.framework */; };
 		37D9B47218B2BEF6005C069D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D9B45418B2BEF6005C069D /* UIKit.framework */; };
 		37D9B47A18B2BEF6005C069D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 37D9B47818B2BEF6005C069D /* InfoPlist.strings */; };
 		37D9B47C18B2BEF6005C069D /* AssignmentNumberTwoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D9B47B18B2BEF6005C069D /* AssignmentNumberTwoTests.m */; };
+		37D9B48618B2C1F4005C069D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D9B48518B2C1F4005C069D /* Main.storyboard */; };
+		37D9B48818B2C215005C069D /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D9B48718B2C215005C069D /* play@2x.png */; };
+		37D9B48B18B2C220005C069D /* A2TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D9B48A18B2C220005C069D /* A2TableViewController.m */; };
+		37D9B49018B2C22F005C069D /* ModuleAViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D9B48D18B2C22F005C069D /* ModuleAViewController.m */; };
+		37D9B49118B2C22F005C069D /* ModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D9B48F18B2C22F005C069D /* ModuleBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,15 +47,20 @@
 		37D9B45E18B2BEF6005C069D /* AssignmentNumberTwo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AssignmentNumberTwo-Prefix.pch"; sourceTree = "<group>"; };
 		37D9B45F18B2BEF6005C069D /* A2AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = A2AppDelegate.h; sourceTree = "<group>"; };
 		37D9B46018B2BEF6005C069D /* A2AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A2AppDelegate.m; sourceTree = "<group>"; };
-		37D9B46318B2BEF6005C069D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		37D9B46518B2BEF6005C069D /* A2ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = A2ViewController.h; sourceTree = "<group>"; };
-		37D9B46618B2BEF6005C069D /* A2ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = A2ViewController.m; sourceTree = "<group>"; };
 		37D9B46818B2BEF6005C069D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		37D9B46E18B2BEF6005C069D /* AssignmentNumberTwoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AssignmentNumberTwoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D9B46F18B2BEF6005C069D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		37D9B47718B2BEF6005C069D /* AssignmentNumberTwoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AssignmentNumberTwoTests-Info.plist"; sourceTree = "<group>"; };
 		37D9B47918B2BEF6005C069D /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		37D9B47B18B2BEF6005C069D /* AssignmentNumberTwoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AssignmentNumberTwoTests.m; sourceTree = "<group>"; };
+		37D9B48518B2C1F4005C069D /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		37D9B48718B2C215005C069D /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
+		37D9B48918B2C220005C069D /* A2TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A2TableViewController.h; sourceTree = "<group>"; };
+		37D9B48A18B2C220005C069D /* A2TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A2TableViewController.m; sourceTree = "<group>"; };
+		37D9B48C18B2C22F005C069D /* ModuleAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleAViewController.h; sourceTree = "<group>"; };
+		37D9B48D18B2C22F005C069D /* ModuleAViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleAViewController.m; sourceTree = "<group>"; };
+		37D9B48E18B2C22F005C069D /* ModuleBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleBViewController.h; sourceTree = "<group>"; };
+		37D9B48F18B2C22F005C069D /* ModuleBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleBViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,11 +120,16 @@
 		37D9B45618B2BEF6005C069D /* AssignmentNumberTwo */ = {
 			isa = PBXGroup;
 			children = (
+				37D9B48918B2C220005C069D /* A2TableViewController.h */,
+				37D9B48A18B2C220005C069D /* A2TableViewController.m */,
+				37D9B48718B2C215005C069D /* play@2x.png */,
 				37D9B45F18B2BEF6005C069D /* A2AppDelegate.h */,
 				37D9B46018B2BEF6005C069D /* A2AppDelegate.m */,
-				37D9B46218B2BEF6005C069D /* Main.storyboard */,
-				37D9B46518B2BEF6005C069D /* A2ViewController.h */,
-				37D9B46618B2BEF6005C069D /* A2ViewController.m */,
+				37D9B48C18B2C22F005C069D /* ModuleAViewController.h */,
+				37D9B48D18B2C22F005C069D /* ModuleAViewController.m */,
+				37D9B48E18B2C22F005C069D /* ModuleBViewController.h */,
+				37D9B48F18B2C22F005C069D /* ModuleBViewController.m */,
+				37D9B48518B2C1F4005C069D /* Main.storyboard */,
 				37D9B46818B2BEF6005C069D /* Images.xcassets */,
 				37D9B45718B2BEF6005C069D /* Supporting Files */,
 			);
@@ -231,7 +244,8 @@
 			files = (
 				37D9B46918B2BEF6005C069D /* Images.xcassets in Resources */,
 				37D9B45B18B2BEF6005C069D /* InfoPlist.strings in Resources */,
-				37D9B46418B2BEF6005C069D /* Main.storyboard in Resources */,
+				37D9B48818B2C215005C069D /* play@2x.png in Resources */,
+				37D9B48618B2C1F4005C069D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,9 +264,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				37D9B49118B2C22F005C069D /* ModuleBViewController.m in Sources */,
+				37D9B49018B2C22F005C069D /* ModuleAViewController.m in Sources */,
+				37D9B48B18B2C220005C069D /* A2TableViewController.m in Sources */,
 				37D9B45D18B2BEF6005C069D /* main.m in Sources */,
 				37D9B46118B2BEF6005C069D /* A2AppDelegate.m in Sources */,
-				37D9B46718B2BEF6005C069D /* A2ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +297,6 @@
 				37D9B45A18B2BEF6005C069D /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		37D9B46218B2BEF6005C069D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				37D9B46318B2BEF6005C069D /* Base */,
-			);
-			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
 		37D9B47818B2BEF6005C069D /* InfoPlist.strings */ = {
@@ -461,6 +469,7 @@
 				37D9B48118B2BEF6005C069D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		37D9B48218B2BEF6005C069D /* Build configuration list for PBXNativeTarget "AssignmentNumberTwoTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +478,7 @@
 				37D9B48418B2BEF6005C069D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
