@@ -29,6 +29,8 @@
 		37D9B48618B2C1F4005C069D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D9B48518B2C1F4005C069D /* Main.storyboard */; };
 		37D9B48818B2C215005C069D /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D9B48718B2C215005C069D /* play@2x.png */; };
 		37D9B48B18B2C220005C069D /* A2TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D9B48A18B2C220005C069D /* A2TableViewController.m */; };
+		D862C27B18B565270026923F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D862C27A18B565270026923F /* AVFoundation.framework */; };
+		D862C27D18B565380026923F /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D862C27C18B565380026923F /* AudioToolbox.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -77,6 +79,8 @@
 		37D9B48718B2C215005C069D /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
 		37D9B48918B2C220005C069D /* A2TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A2TableViewController.h; sourceTree = "<group>"; };
 		37D9B48A18B2C220005C069D /* A2TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A2TableViewController.m; sourceTree = "<group>"; };
+		D862C27A18B565270026923F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		D862C27C18B565380026923F /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +88,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D862C27D18B565380026923F /* AudioToolbox.framework in Frameworks */,
+				D862C27B18B565270026923F /* AVFoundation.framework in Frameworks */,
 				374CADCC18B47EC900F3127C /* GLKit.framework in Frameworks */,
 				37D9B45318B2BEF6005C069D /* CoreGraphics.framework in Frameworks */,
 				37D9B45518B2BEF6005C069D /* UIKit.framework in Frameworks */,
@@ -142,6 +148,8 @@
 		37D9B44F18B2BEF6005C069D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				D862C27C18B565380026923F /* AudioToolbox.framework */,
+				D862C27A18B565270026923F /* AVFoundation.framework */,
 				374CADCB18B47EC900F3127C /* GLKit.framework */,
 				37D9B45018B2BEF6005C069D /* Foundation.framework */,
 				37D9B45218B2BEF6005C069D /* CoreGraphics.framework */,
