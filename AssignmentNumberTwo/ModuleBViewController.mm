@@ -21,19 +21,19 @@
 
 @implementation ModuleBViewController
 
-Novocaine *audioManager;
-RingBuffer *ringBuffer;
-GraphHelper *graphHelper;
-float *audioData;
+Novocaine *audioManager2;
+RingBuffer *ringBuffer2;
+GraphHelper *graphHelper2;
+float *audioData2;
 
-SMUFFTHelper *fftHelper;
-float *fftMagnitudeBuffer;
-float *fftPhaseBuffer;
+SMUFFTHelper *fftHelper2;
+float *fftMagnitudeBuffer2;
+float *fftPhaseBuffer2;
 
 
 //  override the GLKView draw function, from OpenGLES
 - (void)glkView:(GLKView *)view drawInRect:(CGRect)rect {
-    graphHelper->draw(); // draw the graph
+    graphHelper2->draw(); // draw the graph
 }
 
 
@@ -41,30 +41,30 @@ float *fftPhaseBuffer;
 - (void)update{
     
     // plot
-    ringBuffer->FetchFreshData2(audioData, kBufferLength, 0, 1);
-    graphHelper->setGraphData(0,audioData,kBufferLength); // set graph channel
+    ringBuffer2->FetchFreshData2(audioData2, kBufferLength, 0, 1);
+    graphHelper2->setGraphData(0,audioData2,kBufferLength); // set graph channel
     
-    fftHelper->forward(0,audioData, fftMagnitudeBuffer, fftPhaseBuffer);
+    fftHelper2->forward(0,audioData2, fftMagnitudeBuffer2, fftPhaseBuffer2);
     
     // plot
-    graphHelper->setGraphData(1,fftMagnitudeBuffer,kBufferLength/2,sqrt(kBufferLength)); // set graph channel
+    graphHelper2->setGraphData(1,fftMagnitudeBuffer2,kBufferLength/2,sqrt(kBufferLength)); // set graph channel
     
-    graphHelper->update(); // update the graph
+    graphHelper2->update(); // update the graph
 }
 
 -(void) viewDidDisappear:(BOOL)animated{
     // stop opengl from running
-    graphHelper->tearDownGL();
+    graphHelper2->tearDownGL();
 }
 
 -(void)dealloc{
-    graphHelper->tearDownGL();
+    graphHelper2->tearDownGL();
     
-    free(audioData);
+    free(audioData2);
     
-    free(fftMagnitudeBuffer);
-    free(fftPhaseBuffer);
-    delete fftHelper;
+    free(fftMagnitudeBuffer2);
+    free(fftPhaseBuffer2);
+    delete fftHelper2;
     
     // ARC handles everything else, just clean up what we used c++ for (calloc, malloc, new)
     
@@ -75,25 +75,25 @@ float *fftPhaseBuffer;
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
     
-    audioManager = [Novocaine audioManager];
-    ringBuffer = new RingBuffer(kBufferLength,2);
+    audioManager2 = [Novocaine audioManager];
+    ringBuffer2 = new RingBuffer(kBufferLength,2);
     
-    audioData = (float*)calloc(kBufferLength,sizeof(float));
+    audioData2 = (float*)calloc(kBufferLength,sizeof(float));
     
     //setup the fft
-    fftHelper = new SMUFFTHelper(kBufferLength,kBufferLength,WindowTypeRect);
-    fftMagnitudeBuffer = (float *)calloc(kBufferLength/2,sizeof(float));
-    fftPhaseBuffer     = (float *)calloc(kBufferLength/2,sizeof(float));
+    fftHelper2 = new SMUFFTHelper(kBufferLength,kBufferLength,WindowTypeRect);
+    fftMagnitudeBuffer2 = (float *)calloc(kBufferLength/2,sizeof(float));
+    fftPhaseBuffer2     = (float *)calloc(kBufferLength/2,sizeof(float));
     
     // start animating the graph
     int framesPerSecond = 15;
     int numDataArraysToGraph = 2;
-    graphHelper = new GraphHelper(self,
+    graphHelper2 = new GraphHelper(self,
                                   framesPerSecond,
                                   numDataArraysToGraph,
                                   PlotStyleSeparated);
     
-    graphHelper->SetBounds(-0.5,0.5,-0.9,0.9); // bottom, top, left, right, full screen==(-1,1,-1,1)
+    graphHelper2->SetBounds(-0.5,0.5,-0.9,0.9); // bottom, top, left, right, full screen==(-1,1,-1,1)
     
 }
 
@@ -103,10 +103,10 @@ float *fftPhaseBuffer;
     //NSURL *inputFileURL = [[NSBundle mainBundle] URLForResource:@"satisfaction" withExtension:@"mp3"];
     
     
-    [audioManager setInputBlock:^(float *data, UInt32 numFrames, UInt32 numChannels)
+    [audioManager2 setInputBlock:^(float *data, UInt32 numFrames, UInt32 numChannels)
      {
-         if (ringBuffer!= nil) {
-             ringBuffer->AddNewFloatData(data, numFrames);
+         if (ringBuffer2!= nil) {
+             ringBuffer2->AddNewFloatData(data, numFrames);
          }
      }];
     

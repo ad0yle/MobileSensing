@@ -7,13 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3741746F18B556650014A433 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374CADCB18B47EC900F3127C /* GLKit.framework */; };
+		3741747118B5566E0014A433 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3741747018B5566E0014A433 /* OpenGLES.framework */; };
+		3741747318B556830014A433 /* CoreAudio.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3741747218B556830014A433 /* CoreAudio.framework */; };
 		374CADC418B4702A00F3127C /* AudioFileReader.mm in Sources */ = {isa = PBXBuildFile; fileRef = 374CADBD18B4702A00F3127C /* AudioFileReader.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		374CADC518B4702A00F3127C /* AudioFileWriter.m in Sources */ = {isa = PBXBuildFile; fileRef = 374CADBF18B4702A00F3127C /* AudioFileWriter.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		374CADC618B4702A00F3127C /* Novocaine.m in Sources */ = {isa = PBXBuildFile; fileRef = 374CADC118B4702A00F3127C /* Novocaine.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		374CADC718B4702A00F3127C /* RingBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 374CADC318B4702A00F3127C /* RingBuffer.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		374CADCA18B47A4500F3127C /* ModuleAViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 374CADC918B47A4500F3127C /* ModuleAViewController.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		374CADCC18B47EC900F3127C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374CADCB18B47EC900F3127C /* GLKit.framework */; };
-		374CADCF18B48FA600F3127C /* ModuleBViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 374CADCE18B48FA600F3127C /* ModuleBViewController.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		374CADCA18B47A4500F3127C /* ModuleAViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 374CADC918B47A4500F3127C /* ModuleAViewController.mm */; };
+		374CADCF18B48FA600F3127C /* ModuleBViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 374CADCE18B48FA600F3127C /* ModuleBViewController.mm */; };
 		37D9B45118B2BEF6005C069D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D9B45018B2BEF6005C069D /* Foundation.framework */; };
 		37D9B45318B2BEF6005C069D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D9B45218B2BEF6005C069D /* CoreGraphics.framework */; };
 		37D9B45518B2BEF6005C069D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D9B45418B2BEF6005C069D /* UIKit.framework */; };
@@ -42,6 +44,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3741747018B5566E0014A433 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		3741747218B556830014A433 /* CoreAudio.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreAudio.framework; path = System/Library/Frameworks/CoreAudio.framework; sourceTree = SDKROOT; };
 		374CADB918B46FDC00F3127C /* SMUGraphHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMUGraphHelper.h; sourceTree = "<group>"; };
 		374CADBA18B46FDC00F3127C /* SMUFFTHelper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SMUFFTHelper.h; sourceTree = "<group>"; };
 		374CADBC18B4702A00F3127C /* AudioFileReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AudioFileReader.h; sourceTree = "<group>"; };
@@ -84,7 +88,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				374CADCC18B47EC900F3127C /* GLKit.framework in Frameworks */,
+				3741747318B556830014A433 /* CoreAudio.framework in Frameworks */,
+				3741747118B5566E0014A433 /* OpenGLES.framework in Frameworks */,
+				3741746F18B556650014A433 /* GLKit.framework in Frameworks */,
 				37D9B45318B2BEF6005C069D /* CoreGraphics.framework in Frameworks */,
 				37D9B45518B2BEF6005C069D /* UIKit.framework in Frameworks */,
 				37D9B45118B2BEF6005C069D /* Foundation.framework in Frameworks */,
@@ -142,6 +148,8 @@
 		37D9B44F18B2BEF6005C069D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				3741747218B556830014A433 /* CoreAudio.framework */,
+				3741747018B5566E0014A433 /* OpenGLES.framework */,
 				374CADCB18B47EC900F3127C /* GLKit.framework */,
 				37D9B45018B2BEF6005C069D /* Foundation.framework */,
 				37D9B45218B2BEF6005C069D /* CoreGraphics.framework */,
@@ -158,8 +166,6 @@
 				374CADCE18B48FA600F3127C /* ModuleBViewController.mm */,
 				374CADC818B47A4500F3127C /* ModuleAViewController.h */,
 				374CADC918B47A4500F3127C /* ModuleAViewController.mm */,
-				374CADB918B46FDC00F3127C /* SMUGraphHelper.h */,
-				374CADBA18B46FDC00F3127C /* SMUFFTHelper.h */,
 				37D9B48918B2C220005C069D /* A2TableViewController.h */,
 				37D9B48A18B2C220005C069D /* A2TableViewController.m */,
 				37D9B48718B2C215005C069D /* play@2x.png */,
@@ -175,6 +181,8 @@
 		37D9B45718B2BEF6005C069D /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				374CADB918B46FDC00F3127C /* SMUGraphHelper.h */,
+				374CADBA18B46FDC00F3127C /* SMUFFTHelper.h */,
 				37D9B45818B2BEF6005C069D /* AssignmentNumberTwo-Info.plist */,
 				37D9B45918B2BEF6005C069D /* InfoPlist.strings */,
 				37D9B45C18B2BEF6005C069D /* main.m */,
