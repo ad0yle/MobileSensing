@@ -13,6 +13,7 @@
 		374CADC718B4702A00F3127C /* RingBuffer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 374CADC318B4702A00F3127C /* RingBuffer.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		374CADCA18B47A4500F3127C /* ModuleAViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 374CADC918B47A4500F3127C /* ModuleAViewController.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		374CADCC18B47EC900F3127C /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 374CADCB18B47EC900F3127C /* GLKit.framework */; };
+		374CADCF18B48FA600F3127C /* ModuleBViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 374CADCE18B48FA600F3127C /* ModuleBViewController.mm */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		37D9B45118B2BEF6005C069D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D9B45018B2BEF6005C069D /* Foundation.framework */; };
 		37D9B45318B2BEF6005C069D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D9B45218B2BEF6005C069D /* CoreGraphics.framework */; };
 		37D9B45518B2BEF6005C069D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37D9B45418B2BEF6005C069D /* UIKit.framework */; };
@@ -28,7 +29,6 @@
 		37D9B48618B2C1F4005C069D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 37D9B48518B2C1F4005C069D /* Main.storyboard */; };
 		37D9B48818B2C215005C069D /* play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 37D9B48718B2C215005C069D /* play@2x.png */; };
 		37D9B48B18B2C220005C069D /* A2TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D9B48A18B2C220005C069D /* A2TableViewController.m */; };
-		37D9B49118B2C22F005C069D /* ModuleBViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 37D9B48F18B2C22F005C069D /* ModuleBViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +55,8 @@
 		374CADC818B47A4500F3127C /* ModuleAViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModuleAViewController.h; path = ../ModuleAViewController.h; sourceTree = "<group>"; };
 		374CADC918B47A4500F3127C /* ModuleAViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ModuleAViewController.mm; path = ../ModuleAViewController.mm; sourceTree = "<group>"; };
 		374CADCB18B47EC900F3127C /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		374CADCD18B48FA600F3127C /* ModuleBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ModuleBViewController.h; path = ../ModuleBViewController.h; sourceTree = "<group>"; };
+		374CADCE18B48FA600F3127C /* ModuleBViewController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = ModuleBViewController.mm; path = ../ModuleBViewController.mm; sourceTree = "<group>"; };
 		37D9B44D18B2BEF6005C069D /* AssignmentNumberTwo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AssignmentNumberTwo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		37D9B45018B2BEF6005C069D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		37D9B45218B2BEF6005C069D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -75,8 +77,6 @@
 		37D9B48718B2C215005C069D /* play@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play@2x.png"; sourceTree = "<group>"; };
 		37D9B48918B2C220005C069D /* A2TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = A2TableViewController.h; sourceTree = "<group>"; };
 		37D9B48A18B2C220005C069D /* A2TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = A2TableViewController.m; sourceTree = "<group>"; };
-		37D9B48E18B2C22F005C069D /* ModuleBViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModuleBViewController.h; sourceTree = "<group>"; };
-		37D9B48F18B2C22F005C069D /* ModuleBViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModuleBViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -154,6 +154,8 @@
 		37D9B45618B2BEF6005C069D /* AssignmentNumberTwo */ = {
 			isa = PBXGroup;
 			children = (
+				374CADCD18B48FA600F3127C /* ModuleBViewController.h */,
+				374CADCE18B48FA600F3127C /* ModuleBViewController.mm */,
 				374CADC818B47A4500F3127C /* ModuleAViewController.h */,
 				374CADC918B47A4500F3127C /* ModuleAViewController.mm */,
 				374CADB918B46FDC00F3127C /* SMUGraphHelper.h */,
@@ -163,8 +165,6 @@
 				37D9B48718B2C215005C069D /* play@2x.png */,
 				37D9B45F18B2BEF6005C069D /* A2AppDelegate.h */,
 				37D9B46018B2BEF6005C069D /* A2AppDelegate.m */,
-				37D9B48E18B2C22F005C069D /* ModuleBViewController.h */,
-				37D9B48F18B2C22F005C069D /* ModuleBViewController.m */,
 				37D9B48518B2C1F4005C069D /* Main.storyboard */,
 				37D9B46818B2BEF6005C069D /* Images.xcassets */,
 				37D9B45718B2BEF6005C069D /* Supporting Files */,
@@ -301,7 +301,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				374CADC618B4702A00F3127C /* Novocaine.m in Sources */,
-				37D9B49118B2C22F005C069D /* ModuleBViewController.m in Sources */,
+				374CADCF18B48FA600F3127C /* ModuleBViewController.mm in Sources */,
 				374CADC718B4702A00F3127C /* RingBuffer.mm in Sources */,
 				37D9B48B18B2C220005C069D /* A2TableViewController.m in Sources */,
 				374CADC418B4702A00F3127C /* AudioFileReader.mm in Sources */,

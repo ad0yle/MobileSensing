@@ -37,15 +37,15 @@
             </objects>
             <point key="canvasLocation" x="-33" y="-587"/>
         </scene>
-        <!--View Controller - Module B-->
+        <!--ModuleB View Controller - Module B-->
         <scene sceneID="Lke-bs-8N9">
             <objects>
-                <viewController id="jOL-Zd-Vwf" sceneMemberID="viewController">
+                <viewController id="jOL-Zd-Vwf" customClass="ModuleBViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cqs-lw-z7T"/>
                         <viewControllerLayoutGuide type="bottom" id="rXi-CH-Yau"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="hFH-OE-uP2">
+                    <view key="view" contentMode="scaleToFill" id="hFH-OE-uP2" customClass="GLKView">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
